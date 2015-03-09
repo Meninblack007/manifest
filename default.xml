@@ -19,7 +19,6 @@
            sync-c="true"
            sync-j="4" />
 
-  
   <!-- AOSP Repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="platform/art" remote="aosp" />
@@ -57,7 +56,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
-  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" remote="aosp" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" />
@@ -69,6 +68,7 @@
   <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" remote="aosp" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" remote="aosp" />
@@ -98,7 +98,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="aosp" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" />
   <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" />
@@ -128,6 +127,7 @@
   <project path="external/junit" name="platform/external/junit" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" remote="aosp" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
   <project path="external/libffi" name="platform/external/libffi" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
@@ -142,6 +142,7 @@
   <project path="external/libppp" name="platform/external/libppp" remote="aosp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" remote="aosp" />
+  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" remote="aosp" />
@@ -242,10 +243,10 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="aosp" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" />
   <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" remote="aosp" />
   <project path="frameworks/webview" name="platform/frameworks/webview" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" />
@@ -368,6 +369,8 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
@@ -388,7 +391,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  
+
   <!-- CM Repos -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -399,11 +402,6 @@
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />                            
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
@@ -415,6 +413,10 @@
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
