@@ -14,6 +14,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="gh"
+           fetch="https://github.com" />
+  
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -258,7 +261,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" />
-  <project path="libcore" name="platform/libcore" remote="aosp" />
+  <project path="libcore" name="Mahdi-Rom/android_libcore" remote="gh" revision="kk-4.4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" remote="aosp" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" />
@@ -397,7 +400,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" />
+  <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4.3" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />                            
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
