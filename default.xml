@@ -399,7 +399,8 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />                            
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />  
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
