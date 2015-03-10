@@ -228,7 +228,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" />
   <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="aosp" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" remote="aosp" />
@@ -457,6 +456,7 @@
   <project name="LegacyXperia/proprietary_vendor_semc" path="vendor/semc" remote="msm7x30" />
   <project path="frameworks/av" name="Xperia2011-AOSP/frameworks_av" remote="github" revision="aosp4.4" />
   <project path="frameworks/base" name="Xperia2011-AOSP/frameworks_base" remote="github" revision="aosp4.4" />
+  <project path="frameworks/native" name="Xperia2011-AOSP/frameworks_native" remote="github" revision="aosp4.4" />
   <project path="system/core" name="Xperia2011-AOSP/system_core" revision="aosp4.4" />
 
 </manifest>
