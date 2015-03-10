@@ -24,7 +24,6 @@
 
   <!-- AOSP Repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" />
   <project path="art" name="platform/art" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" />
@@ -144,7 +143,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libppp" name="platform/external/libppp" remote="aosp" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" remote="aosp" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" remote="aosp" />
@@ -194,7 +192,6 @@
   <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" />
@@ -407,6 +404,8 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
@@ -429,12 +428,17 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
 
   <!-- LegacyXperia projects -->
   <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
