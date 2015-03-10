@@ -397,7 +397,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4.3" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />                            
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
