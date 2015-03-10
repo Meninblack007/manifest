@@ -25,6 +25,7 @@
   <!-- AOSP Repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="platform/art" remote="aosp" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -436,7 +437,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
