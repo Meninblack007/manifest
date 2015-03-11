@@ -239,7 +239,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" remote="aosp" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" />
@@ -457,7 +456,7 @@
   <project path="frameworks/base" name="Xperia2011-AOSP/frameworks_base" remote="github" revision="aosp4.4" />
   <project path="frameworks/native" name="Xperia2011-AOSP/frameworks_native" remote="github" revision="aosp4.4" />
   <project path="frameworks/rs" name="Xperia2011-AOSP/frameworks_rs" remote="github" revision="aosp4.4" />
-  <!--project path="frameworks/opt/telephony" name="Xperia2011-AOSP/frameworks_opt_telephony" remote="github" revision="aosp4.4" /-->
+  <project path="frameworks/opt/telephony" name="Xperia2011-AOSP/frameworks_opt_telephony" remote="github" revision="aosp4.4" />
   <project path="system/core" name="Xperia2011-AOSP/system_core" revision="aosp4.4" />
 
 </manifest>
