@@ -268,10 +268,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="aosp" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" remote="aosp" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" />
@@ -279,8 +276,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" remote="aosp" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" remote="aosp" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" />
@@ -288,7 +283,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="aosp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" />
@@ -297,7 +291,6 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" />
@@ -402,14 +395,12 @@
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
@@ -435,15 +426,17 @@
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="packages/apps/Bluetooth" name="omnirom/android_packages_apps_Bluetooth" remote="github" revision="android-4.4" />
+  <project path="hardware/libhardware" name="omnirom/android_hardware_libhardware" remote="github" revision="android-4.4" />
+  <project path="external/bluetooth/bluedroid" name="omnirom/android_external_bluetooth_bluedroid" remote="github" revision="android-4.4" />
   
 
   <!-- Xperia2011-AOSP -->
-  <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
+  <project name="Xperia2011-AOSP/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="aosp4.4" />
   <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="msm7x30" />
-  <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="msm7x30" />
+  <project name="Xperia2011-AOSP/android_device_semc_haida" path="device/semc/haida" remote="github" revision="aosp4.4" />
   <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="msm7x30" />
@@ -458,5 +451,8 @@
   <project path="frameworks/rs" name="Xperia2011-AOSP/frameworks_rs" remote="github" revision="aosp4.4" />
   <project path="frameworks/opt/telephony" name="Xperia2011-AOSP/frameworks_opt_telephony" remote="github" revision="aosp4.4" />
   <project path="system/core" name="Xperia2011-AOSP/system_core" revision="aosp4.4" />
+  <project path="hardware/libhardware" name="Xperia2011-AOSP/hardware_libhardware" remote="github" revision="aosp4.4" />
+  <project path="packages/apps/Settings" name="Xperia2011-AOSP/packages_apps_Settings" remote="github" revision="aosp4.4" />
+  <project path="packages/apps/Gallery2" name="Xperia2011-AOSP/packages_apps_Gallery2" remote="github" revision="aosp4.4" />
 
 </manifest>
