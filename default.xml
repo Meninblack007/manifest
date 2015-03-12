@@ -429,12 +429,12 @@
   
 
   <!-- Xperia2011-AOSP -->
-  <project name="Xperia2011-AOSP/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="aosp4.4" />
+  <project name="Xperia2011-AOSP/device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="aosp4.4" />
   <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="msm7x30" />
-  <project name="Xperia2011-AOSP/android_device_semc_haida" path="device/semc/haida" remote="github" revision="aosp4.4" />
+  <project name="Xperia2011-AOSP/device_semc_haida" path="device/semc/haida" remote="github" revision="aosp4.4" />
   <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="msm7x30" />
